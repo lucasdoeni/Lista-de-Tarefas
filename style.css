@@ -48,7 +48,7 @@ body {
 }
 
 .button-add-task:active {
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .list-tasks {
