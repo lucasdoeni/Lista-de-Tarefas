@@ -48,7 +48,7 @@ function deletarItem(posicao) {
 function recarregarTarefas() {
     const tarefasDoLocalStorage = localStorage.getItem('lista')
 
-    minhaListaDeItens = JSON.parse(tarefasDoLocalStorage)
+    minhaListaDeItens = JSON.parse(tarefasDoLocalStorage) ?? []
     console.log('tarefasLocalStorage')
     mostrarTarefas()
 }
